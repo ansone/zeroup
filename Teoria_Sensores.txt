@@ -1,0 +1,29 @@
+O que é um sensor?
+
+Sensor é um dispositivo capaz de sentir, isto é, capaz de captar grandezas. Chamamos o processo de captação de aquisição, e as grandezas sentidas, chamamos de dados.
+Em outras palavras, os dados são informações que utilizamos para desescrever o comportamento de uma grandeza no tempo. Um dado não é a grandeza propriamente dita, ele é um valor que expressa a grandez em números.
+
+Complexo? Nem tanto!
+
+Ficará simples com este exemplo: você tem um anemômetro, um instrumento utilizado para medir a velocidade do vento. Num dia ensolarado, você vai para um campo aberto e mede com o seu anemômetro a velocidade do vento.
+Na verdade, o que o equipamento está medindo não é a velocidade do vento, mas alguma outra variável (como a corrente induzida por um gerador, ou o tempo entre cada palheta interromper um feixe de luz).
+O que queremos medir é a velocidade do vento, mas os anemômetros não medem isso diretamente. Precisamos transformar estes dadso medidos para que eles nos mostrem se é um bom dia para soltar pipa.
+
+Os dados medidos tem uma correlação com a velocidade do vento, isto é, se a velocidade do vento mudar, os dados mudarão na mesma proporção. Desta forma obtemos dados e os transformamos em informações uteis.
+Na verdade, sensores são transformadores de grandezas. Eles transformam grandezas de interesse (velocidade, irradiação luminosa, temperatura, pressão e etc...) em uma grandeza que podemos computar, isto é, fazer contas.
+Por isso, sensores são também chamados transdutores.
+
+Que tipo de dados podemos obter? Em geral, podemos dizer que os dados na natureza são do tipo analógico: são continuos em sua intensidade. Imagine que você e um engenheiro estão competindo para ver quem tem o velocímetro mais preciso.
+O seu mede uma velocidade tão pequena quanto 1cm/h. O do engenheiro mede 0,5cm/h, mais preciso que o seu. Então, você compra um mais preciso ainda que mede uma velocidade tão pequena como 0,01cm/h. O engenheiro, que não suporta perder este tipo de competição, compra um que mede 0,001cm/h.
+
+Essa competição não acabará nunca, pois a velocidade é uma grandeza analógica e, portanto contínua. Na teoria, você pode medir algo tão pequeno quanto você quiser e o seu equipamento permir.
+Como dito, as grandezas naturais são analógicas: som, espaço, peso, pressão, temperatura, velocidade.
+
+Computadores não conseguem (ainda) lidar com dados infinitamente pequenos ou infinitamente precisos. Não é possível computar este tipo de dado. Por isso, ao adquirir estes dados (com um sensor, lógico!) tomamos amostras aproximadas.
+Um sensor digital com precisão de 3 dígitos jamais conseguirá medir uma grandeza de 0,000007 unidades. Para ele isto é, e sempre será, igual a zero.
+
+Podemos sempre aumentar a precisão de um sensor digital. Mas, ao contrário de um sensor analógico, sempre háverá um buraco em que a medida real será arredondada.
+
+Há sensores análógicos para tudo a grande maioria, transforma a grandeza de interesse em alguma grandeza eletrica. Há poucos sensores digitais, a maioria são sensores analógicos que transformam o dado em digital.
+Um botão é um sensor digital pois ele só é capaz de medir dois estados: ligado ou desligado.
+Um sensor de distância é supostamente capaz de medir qualquer distância e qualquer fração de distância. Mas
